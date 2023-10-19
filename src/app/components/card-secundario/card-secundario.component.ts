@@ -10,6 +10,8 @@ export class CardSecundarioComponent implements OnInit {
   Photo:string=""
   @Input()
   title:string=""
+  @Input()
+  id:string="0"
   constructor() { }
 
   ngOnInit(): void {

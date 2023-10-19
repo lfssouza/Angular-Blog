@@ -9,9 +9,11 @@ export class CardPrincipalComponent implements OnInit {
   @Input()
   photo:string=""
   @Input()
-  cardTitle:string=""
+  title:string=""
   @Input()
   description=""
+  @Input()
+  id:string="0"
   constructor() { }
 
   ngOnInit(): void {
