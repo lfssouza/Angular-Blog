@@ -1,0 +1,29 @@
+.first-card{
+  width: 400px;
+  height: 600px;
+
+  margin-left: 15px;
+  margin-right: 15px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.first-card-photo img{
+  height: 200px;
+  width: 100%;
+  min-width: 400px;
+}
+
+.first-card-title{
+  color: black;
+  font-size: 15px;
+}
+
+.first-card-description{
+  font-size: 13px;
+}
+
+

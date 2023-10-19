@@ -1,0 +1,15 @@
+.menu{
+  background-color: #353239;
+  height: 40px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu a{
+  margin-right: 20px;
+  text-align: center;
+  color: white;
+}
